@@ -1,1 +1,2 @@
-# GCP_Demo
+# GCP_Demo for deploying AlloyDB
+
