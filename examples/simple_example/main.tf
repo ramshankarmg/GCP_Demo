@@ -14,6 +14,14 @@
  * limitations under the License.
  */
 
+
+provider "google" {
+  project = var.project_id
+}
+
+provider "google-beta" {
+    project = var.project_id
+}
 resource "google_compute_network" "default" {
   name    = var.network_name
   project = var.project_id
